@@ -81,8 +81,9 @@ load → Clean → Explore → Analyze → Visualize
 3. **Bar Chart** - Top 10 most urgent SKUs by days of stock left
 4. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/931664640658feec28ad69f0eccff2cc706b2920/screenshots/bar%20chat.png)
 5. **Boxplot** - Shipping costs by warehouse location
-6. **Heatmap** - Fulfillment rates by warehouse
-7. **Scatterplot** - Lead time vs demand rate (colored by risk status)
+6. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/d4d3ab70d41e2174448ac504bb97411ab8663627/screenshots/box%20plot.png)
+7. **Heatmap** - Fulfillment rates by warehouse
+8. **Scatterplot** - Lead time vs demand rate (colored by risk status)
 
 ---
 
