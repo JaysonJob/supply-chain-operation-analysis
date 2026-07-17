@@ -95,6 +95,7 @@ I used this chart to compare shipping costs across different warehouses and see 
 I used this chart to make warehouse performance easy to understand by using colors instead of numbers.The heatmap instantly shows which warehouses have the darkest colors for delays and backorders, making underperformers jump out immediately.
 
 **Scatterplot** - Lead time vs demand rate (colored by risk status)
+![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/f827563bec6004cecf49347e1f8c315d76be833f/screenshots/scatterdchat.png)
 I used this chart to find the relationship between lead time and daily demand while also showing which products are at risk. This helps me spot the most dangerous products - ones that take long to arrive AND sell really fast - so I know where to add extra safety stock.
 ## Key Insights & Recommendations
 
