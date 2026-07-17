@@ -2,6 +2,7 @@
 This project looks at how a company keeps track of its products and makes sure they get to customers on time.We used a dataset (not from a real business) to practice finding problems and suggesting the rcomendations.
 
 - **Where the data came from:** Mockaroo (an ai platform where it generate datasets so its not real)
+- I downloaded the dataset from mockaroo as json then i saved as csv
 - **What we did:** Used Python to read,clean,explore and visualize the data
 
 ---
@@ -83,8 +84,7 @@ load → Clean → Explore → Analyze → Visualize
 5. **Boxplot** - Shipping costs by warehouse location
 6. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/d4d3ab70d41e2174448ac504bb97411ab8663627/screenshots/box%20plot.png)
 7. **Heatmap** - Fulfillment rates by warehouse
-8. **Scatterplot** - Lead time vs demand rate (colored by risk status)
-
+8. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/96f513d9d630388f4f780de2f1cebbf6e0b046c0/screenshots/heatmap.png)
 ---
 
 ## Key Insights & Recommendations
