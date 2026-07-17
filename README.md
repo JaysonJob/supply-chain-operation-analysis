@@ -79,9 +79,10 @@ load → Clean → Explore → Analyze → Visualize
 1. **Histogram** - Stock levels vs reorder points (shows how many are at risk)
 2. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/9655485dabae781690311df645d8be1a69433350/screenshots/histogram.png)
 3. **Bar Chart** - Top 10 most urgent SKUs by days of stock left
-4. **Boxplot** - Shipping costs by warehouse location
-5. **Heatmap** - Fulfillment rates by warehouse
-6. **Scatterplot** - Lead time vs demand rate (colored by risk status)
+4. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/931664640658feec28ad69f0eccff2cc706b2920/screenshots/bar%20chat.png)
+5. **Boxplot** - Shipping costs by warehouse location
+6. **Heatmap** - Fulfillment rates by warehouse
+7. **Scatterplot** - Lead time vs demand rate (colored by risk status)
 
 ---
 
