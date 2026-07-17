@@ -2,7 +2,8 @@
 This project looks at how a company keeps track of its products and makes sure they get to customers on time.We used a dataset (not from a real business) to practice finding problems and suggesting the rcomendations.
 
 - **Where the data came from:** Mockaroo (an ai platform where it generate datasets so its not real)
-- I downloaded the dataset from mockaroo as json then i saved as csv
+- I downloaded the dataset from mockaroo as json then i saved as csv.Below is a screenshot of our data as a raw.json
+- ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/3fa6d3238d9ad82e8483b20486551297b0718225/screenshots/raw%20data.json.png)
 - **What we did:** Used Python to read,clean,explore and visualize the data
 
 ---
@@ -78,13 +79,20 @@ load → Clean → Explore → Analyze → Visualize
 ## Visualizations
 
 1. **Histogram** - Stock levels vs reorder points (shows how many are at risk)
-2. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/9655485dabae781690311df645d8be1a69433350/screenshots/histogram.png)
-3. **Bar Chart** - Top 10 most urgent SKUs by days of stock left
-4. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/931664640658feec28ad69f0eccff2cc706b2920/screenshots/bar%20chat.png)
-5. **Boxplot** - Shipping costs by warehouse location
-6. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/d4d3ab70d41e2174448ac504bb97411ab8663627/screenshots/box%20plot.png)
-7. **Heatmap** - Fulfillment rates by warehouse
-8. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/96f513d9d630388f4f780de2f1cebbf6e0b046c0/screenshots/heatmap.png)
+2. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/9655485dabae781690311df645d8be1a69433350/screenshots/histogram.png).
+3. I used this chart to see the overall distribution of stock levels across all products and compare them against their reorder points.This helps quickly spot how many products are sitting in the danger zone where they might run out soon.
+4. 
+5. **Bar Chart** - Top 10 most urgent SKUs by days of stock left
+6. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/931664640658feec28ad69f0eccff2cc706b2920/screenshots/bar%20chat.png)
+7. I used this chart to clearly show which specific products are most urgent by ranking them from worst to best.The horizontal layout makes it easy to read product names and see at a glance which ones need attention right now.
+8. 
+9. **Boxplot** - Shipping costs by warehouse location
+10. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/d4d3ab70d41e2174448ac504bb97411ab8663627/screenshots/box%20plot.png)
+11. I used this chart to compare shipping costs across different warehouses and see not just the average but also the range and spread of costs.The boxplot shows me which warehouses are consistently expensive and which ones have wild cost swings that might indicate problems.
+12. 
+13. **Heatmap** - Fulfillment rates by warehouse
+14. ![alt text](https://github.com/JaysonJob/supply-chain-operation-analysis/blob/96f513d9d630388f4f780de2f1cebbf6e0b046c0/screenshots/heatmap.png)
+15. I used this chart to make warehouse performance easy to understand by using colors instead of numbers.The heatmap instantly shows which warehouses have the darkest colors for delays and backorders, making underperformers jump out immediately.
 ---
 
 ## Key Insights & Recommendations
